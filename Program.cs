@@ -26,6 +26,7 @@ class Program{
         // foreach(var player in cp.players){
         //     Console.WriteLine($"{player.GetType().Name}");
         // }
+        Console.WriteLine("Start");
         var cp = new CreatePlayers();
         cp.CreatePlayersList();
         foreach(var p in cp.players){

@@ -10,7 +10,12 @@ public class CreatePlayers{
     }
 
     public void CreatePlayersList(){
-        Int32.TryParse(Console.ReadLine(), out int playersCount);
+        int playersCount;
+        do
+        {
+            Console.WriteLine("Введите количество игроков(чётное)");
+            Int32.TryParse(Console.ReadLine(), out playersCount);
+        } while(playersCount % 2 != 0);
         Random rnd = new Random();
         int randomClassOfPlayer = 0;
         while(playersCount != 0){

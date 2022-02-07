@@ -17,12 +17,12 @@ public abstract class Player{
     public int HP { get; set; }
     public int Strenght { get; set; }
     
-    public IAbility ability;
+    //public IAbility ability;
 
-    public void UseAbility(){
-        ability.Ability();
-    }
-    public void SetAbility(IAbility ability){
-        this.ability = ability;
-    }
+    //public void UseAbility(){
+        //ability.Ability();
+    //}
+    //public void SetAbility(IAbility ability){
+        //this.ability = ability;
+    //}
 }
