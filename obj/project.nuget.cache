@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BvwpfOPogq4vYdcicfEvaIVFuFX/rIMoyFglGV1mMhrckelad0R1gt5Fi/tp1YZJ9dsbxCFgY9d22qoMWtfNXQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Daniil\\Desktop\\Разработка\\RPG_SAGA\\RPG_SAGA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Daniil\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}
